@@ -1,0 +1,9 @@
+Section,Key,Value
+EDA,Target Column,Fare
+Data Quality,rows,891
+Data Quality,columns,12
+Data Quality,duplicates,0
+Data Quality,missing_values,"{'PassengerId': 0, 'Survived': 0, 'Pclass': 0, 'Name': 0, 'Sex': 0, 'Age': 177, 'SibSp': 0, 'Parch': 0, 'Ticket': 0, 'Fare': 0, 'Cabin': 687, 'Embarked': 2}"
+Cleaning,Age,Filled missing values with median
+Cleaning,Cabin,Filled missing values with mode
+Cleaning,Embarked,Filled missing values with mode
